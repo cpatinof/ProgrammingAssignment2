@@ -3,7 +3,7 @@
 ## 19-MAR-2015
 ## This script contains the functions needed to cache the inverse of a given
 ## matrix. 
-
+##
 ## makeCacheMatrix creates a special object containing the set of functions 
 ## that set and get the input matrix and its inverse. 
 ## The input should be a square (invertible) matrix.
@@ -21,7 +21,6 @@ makeCacheMatrix <- function(x = matrix()) {
              setinverse = setinverse,
              getinverse = getinverse)
 }
-
 
 ## cacheSolve returns a matrix that is the inverse of the special matrix object
 ## returned by makeCacheMatrix(x).
