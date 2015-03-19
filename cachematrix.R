@@ -1,7 +1,12 @@
-## Put comments here that give an overall description of what your
-## functions do
+## Programming Assignment 2
+## By: Carlos Patino
+## 19-MAR-2015
+## This script contains the functions needed to cache the inverse of a given
+## matrix. 
 
-## Write a short comment describing this function
+## makeCacheMatrix creates a special object containing the set of functions 
+## that set and get the inverse of the matrix entered as the arg for the
+## function
 
 makeCacheMatrix <- function(x = matrix()) {
 
