@@ -5,8 +5,8 @@
 ## matrix. 
 
 ## makeCacheMatrix creates a special object containing the set of functions 
-## that set and get the inverse of the matrix entered as the arg for the
-## function
+## that set and get the input matrix and its inverse. 
+## The input should be a square (invertible) matrix.
 
 makeCacheMatrix <- function(x = matrix()) {
         inv <- NULL
@@ -23,7 +23,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## cacheSolve returns a matrix that is the inverse of x.
+## cacheSolve returns a matrix that is the inverse of the special matrix object
+## returned by makeCacheMatrix(x).
 ## If x has not changed, and its inverse is cached, then this function returns
 ## the cached inverse of matrix x
 
